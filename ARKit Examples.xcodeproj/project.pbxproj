@@ -15,6 +15,17 @@
 		2206756C202486C800471675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2206756A202486C800471675 /* LaunchScreen.storyboard */; };
 		22067577202486C800471675 /* ARKit_ExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22067576202486C800471675 /* ARKit_ExamplesTests.swift */; };
 		22067582202486C800471675 /* ARKit_ExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22067581202486C800471675 /* ARKit_ExamplesUITests.swift */; };
+		221CF6C420266F6F00BB238E /* PlaneDetectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CF6C320266F6F00BB238E /* PlaneDetectionVC.swift */; };
+		221CF6C62026713800BB238E /* Plane.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221CF6C52026713800BB238E /* Plane.xcassets */; };
+		221CF6CA202730F500BB238E /* Banana.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221CF6C9202730F500BB238E /* Banana.xcassets */; };
+		223D28C82024F4D90050EBB0 /* SolarSystemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D28C72024F4D90050EBB0 /* SolarSystemVC.swift */; };
+		223D28CA2024F5380050EBB0 /* SolarSystem.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223D28C92024F5380050EBB0 /* SolarSystem.xcassets */; };
+		223D28CD202548060050EBB0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D28CC202548060050EBB0 /* Utils.swift */; };
+		22534D682024B3A1001F6C14 /* FirstExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22534D672024B3A1001F6C14 /* FirstExample.swift */; };
+		22534D6D2024C723001F6C14 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22534D6C2024C723001F6C14 /* TableViewController.swift */; };
+		22534D6F2024C736001F6C14 /* BaseARKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22534D6E2024C736001F6C14 /* BaseARKitVC.swift */; };
+		22534D712024D3F3001F6C14 /* Int+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22534D702024D3F3001F6C14 /* Int+extensions.swift */; };
+		22534D732024D4AA001F6C14 /* DrawingARKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22534D722024D4AA001F6C14 /* DrawingARKitVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		2206757D202486C800471675 /* ARKit ExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit ExamplesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22067581202486C800471675 /* ARKit_ExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_ExamplesUITests.swift; sourceTree = "<group>"; };
 		22067583202486C800471675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221CF6C320266F6F00BB238E /* PlaneDetectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectionVC.swift; sourceTree = "<group>"; };
+		221CF6C52026713800BB238E /* Plane.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Plane.xcassets; sourceTree = "<group>"; };
+		221CF6C9202730F500BB238E /* Banana.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Banana.xcassets; sourceTree = "<group>"; };
+		223D28C72024F4D90050EBB0 /* SolarSystemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemVC.swift; sourceTree = "<group>"; };
+		223D28C92024F5380050EBB0 /* SolarSystem.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SolarSystem.xcassets; sourceTree = "<group>"; };
+		223D28CC202548060050EBB0 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		22534D672024B3A1001F6C14 /* FirstExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstExample.swift; sourceTree = "<group>"; };
+		22534D6C2024C723001F6C14 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		22534D6E2024C736001F6C14 /* BaseARKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseARKitVC.swift; sourceTree = "<group>"; };
+		22534D702024D3F3001F6C14 /* Int+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+extensions.swift"; sourceTree = "<group>"; };
+		22534D722024D4AA001F6C14 /* DrawingARKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingARKitVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +122,16 @@
 			isa = PBXGroup;
 			children = (
 				2206755F202486C800471675 /* AppDelegate.swift */,
+				22534D6C2024C723001F6C14 /* TableViewController.swift */,
 				22067561202486C800471675 /* art.scnassets */,
 				22067563202486C800471675 /* ViewController.swift */,
+				223D28CB2024F9030050EBB0 /* Utilities */,
+				22534D6B2024C718001F6C14 /* ARKit examples */,
 				22067565202486C800471675 /* Main.storyboard */,
 				22067568202486C800471675 /* Assets.xcassets */,
+				223D28C92024F5380050EBB0 /* SolarSystem.xcassets */,
+				221CF6C52026713800BB238E /* Plane.xcassets */,
+				221CF6C9202730F500BB238E /* Banana.xcassets */,
 				2206756A202486C800471675 /* LaunchScreen.storyboard */,
 				2206756D202486C800471675 /* Info.plist */,
 			);
@@ -126,6 +154,27 @@
 				22067583202486C800471675 /* Info.plist */,
 			);
 			path = "ARKit ExamplesUITests";
+			sourceTree = "<group>";
+		};
+		223D28CB2024F9030050EBB0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				22534D702024D3F3001F6C14 /* Int+extensions.swift */,
+				223D28CC202548060050EBB0 /* Utils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		22534D6B2024C718001F6C14 /* ARKit examples */ = {
+			isa = PBXGroup;
+			children = (
+				22534D6E2024C736001F6C14 /* BaseARKitVC.swift */,
+				22534D722024D4AA001F6C14 /* DrawingARKitVC.swift */,
+				223D28C72024F4D90050EBB0 /* SolarSystemVC.swift */,
+				221CF6C320266F6F00BB238E /* PlaneDetectionVC.swift */,
+				22534D672024B3A1001F6C14 /* FirstExample.swift */,
+			);
+			path = "ARKit examples";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +284,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221CF6CA202730F500BB238E /* Banana.xcassets in Resources */,
+				221CF6C62026713800BB238E /* Plane.xcassets in Resources */,
 				22067562202486C800471675 /* art.scnassets in Resources */,
 				2206756C202486C800471675 /* LaunchScreen.storyboard in Resources */,
 				22067569202486C800471675 /* Assets.xcassets in Resources */,
+				223D28CA2024F5380050EBB0 /* SolarSystem.xcassets in Resources */,
 				22067567202486C800471675 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22534D6F2024C736001F6C14 /* BaseARKitVC.swift in Sources */,
 				22067564202486C800471675 /* ViewController.swift in Sources */,
+				223D28CD202548060050EBB0 /* Utils.swift in Sources */,
+				22534D732024D4AA001F6C14 /* DrawingARKitVC.swift in Sources */,
+				22534D682024B3A1001F6C14 /* FirstExample.swift in Sources */,
+				22534D712024D3F3001F6C14 /* Int+extensions.swift in Sources */,
+				223D28C82024F4D90050EBB0 /* SolarSystemVC.swift in Sources */,
 				22067560202486C800471675 /* AppDelegate.swift in Sources */,
+				22534D6D2024C723001F6C14 /* TableViewController.swift in Sources */,
+				221CF6C420266F6F00BB238E /* PlaneDetectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B82WJF6RBY;
+				DEVELOPMENT_TEAM = 92WBPPS3HN;
 				INFOPLIST_FILE = "ARKit Examples/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matcom.ARKit-Examples";
@@ -446,7 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B82WJF6RBY;
+				DEVELOPMENT_TEAM = 92WBPPS3HN;
 				INFOPLIST_FILE = "ARKit Examples/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matcom.ARKit-Examples";
