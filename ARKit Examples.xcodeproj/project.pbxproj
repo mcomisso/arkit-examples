@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		22067560202486C800471675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206755F202486C800471675 /* AppDelegate.swift */; };
 		22067562202486C800471675 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 22067561202486C800471675 /* art.scnassets */; };
-		22067564202486C800471675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22067563202486C800471675 /* ViewController.swift */; };
 		22067567202486C800471675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22067565202486C800471675 /* Main.storyboard */; };
 		22067569202486C800471675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22067568202486C800471675 /* Assets.xcassets */; };
 		2206756C202486C800471675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2206756A202486C800471675 /* LaunchScreen.storyboard */; };
@@ -17,9 +16,12 @@
 		22067582202486C800471675 /* ARKit_ExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22067581202486C800471675 /* ARKit_ExamplesUITests.swift */; };
 		221CF6C420266F6F00BB238E /* PlaneDetectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CF6C320266F6F00BB238E /* PlaneDetectionVC.swift */; };
 		221CF6C62026713800BB238E /* Plane.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221CF6C52026713800BB238E /* Plane.xcassets */; };
-		221CF6CA202730F500BB238E /* Banana.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221CF6C9202730F500BB238E /* Banana.xcassets */; };
 		221CF6CC20273C4900BB238E /* BasketBallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CF6CB20273C4900BB238E /* BasketBallVC.swift */; };
 		221CF6D120273EDE00BB238E /* basketball.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 221CF6D020273EDE00BB238E /* basketball.scnassets */; };
+		221CF6DA202764C400BB238E /* nonoargh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 221CF6D9202764C400BB238E /* nonoargh.mp3 */; };
+		221CF6DC202768A900BB238E /* scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 221CF6DB202768A900BB238E /* scream.mp3 */; };
+		221CF6DE2028350200BB238E /* PortalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221CF6DD2028350200BB238E /* PortalVC.swift */; };
+		221CF6E12028353D00BB238E /* Portal.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 221CF6E02028353D00BB238E /* Portal.scnassets */; };
 		223D28C82024F4D90050EBB0 /* SolarSystemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D28C72024F4D90050EBB0 /* SolarSystemVC.swift */; };
 		223D28CA2024F5380050EBB0 /* SolarSystem.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 223D28C92024F5380050EBB0 /* SolarSystem.xcassets */; };
 		223D28CD202548060050EBB0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223D28CC202548060050EBB0 /* Utils.swift */; };
@@ -51,7 +53,6 @@
 		2206755C202486C800471675 /* ARKit Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2206755F202486C800471675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22067561202486C800471675 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		22067563202486C800471675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22067566202486C800471675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22067568202486C800471675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2206756B202486C800471675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,9 +65,12 @@
 		22067583202486C800471675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		221CF6C320266F6F00BB238E /* PlaneDetectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectionVC.swift; sourceTree = "<group>"; };
 		221CF6C52026713800BB238E /* Plane.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Plane.xcassets; sourceTree = "<group>"; };
-		221CF6C9202730F500BB238E /* Banana.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Banana.xcassets; sourceTree = "<group>"; };
 		221CF6CB20273C4900BB238E /* BasketBallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketBallVC.swift; sourceTree = "<group>"; };
 		221CF6D020273EDE00BB238E /* basketball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = basketball.scnassets; sourceTree = "<group>"; };
+		221CF6D9202764C400BB238E /* nonoargh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nonoargh.mp3; sourceTree = "<group>"; };
+		221CF6DB202768A900BB238E /* scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scream.mp3; sourceTree = "<group>"; };
+		221CF6DD2028350200BB238E /* PortalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalVC.swift; sourceTree = "<group>"; };
+		221CF6E02028353D00BB238E /* Portal.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Portal.scnassets; sourceTree = "<group>"; };
 		223D28C72024F4D90050EBB0 /* SolarSystemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemVC.swift; sourceTree = "<group>"; };
 		223D28C92024F5380050EBB0 /* SolarSystem.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SolarSystem.xcassets; sourceTree = "<group>"; };
 		223D28CC202548060050EBB0 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -127,15 +131,10 @@
 			children = (
 				2206755F202486C800471675 /* AppDelegate.swift */,
 				22534D6C2024C723001F6C14 /* TableViewController.swift */,
-				22067561202486C800471675 /* art.scnassets */,
-				22067563202486C800471675 /* ViewController.swift */,
-				223D28CB2024F9030050EBB0 /* Utilities */,
 				22534D6B2024C718001F6C14 /* ARKit examples */,
 				22067565202486C800471675 /* Main.storyboard */,
+				223D28CB2024F9030050EBB0 /* Utilities */,
 				22067568202486C800471675 /* Assets.xcassets */,
-				223D28C92024F5380050EBB0 /* SolarSystem.xcassets */,
-				221CF6C52026713800BB238E /* Plane.xcassets */,
-				221CF6C9202730F500BB238E /* Banana.xcassets */,
 				2206756A202486C800471675 /* LaunchScreen.storyboard */,
 				2206756D202486C800471675 /* Info.plist */,
 			);
@@ -169,6 +168,36 @@
 			path = "Basketball VC";
 			sourceTree = "<group>";
 		};
+		221CF6D420274B1D00BB238E /* Plane detection */ = {
+			isa = PBXGroup;
+			children = (
+				22067561202486C800471675 /* art.scnassets */,
+				221CF6C52026713800BB238E /* Plane.xcassets */,
+				221CF6D9202764C400BB238E /* nonoargh.mp3 */,
+				221CF6DB202768A900BB238E /* scream.mp3 */,
+				221CF6C320266F6F00BB238E /* PlaneDetectionVC.swift */,
+			);
+			path = "Plane detection";
+			sourceTree = "<group>";
+		};
+		221CF6D520274B3400BB238E /* Solar system */ = {
+			isa = PBXGroup;
+			children = (
+				223D28C92024F5380050EBB0 /* SolarSystem.xcassets */,
+				223D28C72024F4D90050EBB0 /* SolarSystemVC.swift */,
+			);
+			path = "Solar system";
+			sourceTree = "<group>";
+		};
+		221CF6DF2028353400BB238E /* Portal */ = {
+			isa = PBXGroup;
+			children = (
+				221CF6E02028353D00BB238E /* Portal.scnassets */,
+				221CF6DD2028350200BB238E /* PortalVC.swift */,
+			);
+			path = Portal;
+			sourceTree = "<group>";
+		};
 		223D28CB2024F9030050EBB0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,11 +211,12 @@
 			isa = PBXGroup;
 			children = (
 				22534D6E2024C736001F6C14 /* BaseARKitVC.swift */,
-				22534D722024D4AA001F6C14 /* DrawingARKitVC.swift */,
-				223D28C72024F4D90050EBB0 /* SolarSystemVC.swift */,
-				221CF6C320266F6F00BB238E /* PlaneDetectionVC.swift */,
-				221CF6CD20273D2900BB238E /* Basketball VC */,
 				22534D672024B3A1001F6C14 /* FirstExample.swift */,
+				22534D722024D4AA001F6C14 /* DrawingARKitVC.swift */,
+				221CF6D520274B3400BB238E /* Solar system */,
+				221CF6D420274B1D00BB238E /* Plane detection */,
+				221CF6CD20273D2900BB238E /* Basketball VC */,
+				221CF6DF2028353400BB238E /* Portal */,
 			);
 			path = "ARKit examples";
 			sourceTree = "<group>";
@@ -299,10 +329,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				221CF6D120273EDE00BB238E /* basketball.scnassets in Resources */,
-				221CF6CA202730F500BB238E /* Banana.xcassets in Resources */,
 				221CF6C62026713800BB238E /* Plane.xcassets in Resources */,
+				221CF6DA202764C400BB238E /* nonoargh.mp3 in Resources */,
 				22067562202486C800471675 /* art.scnassets in Resources */,
 				2206756C202486C800471675 /* LaunchScreen.storyboard in Resources */,
+				221CF6E12028353D00BB238E /* Portal.scnassets in Resources */,
+				221CF6DC202768A900BB238E /* scream.mp3 in Resources */,
 				22067569202486C800471675 /* Assets.xcassets in Resources */,
 				223D28CA2024F5380050EBB0 /* SolarSystem.xcassets in Resources */,
 				22067567202486C800471675 /* Main.storyboard in Resources */,
@@ -331,10 +363,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22534D6F2024C736001F6C14 /* BaseARKitVC.swift in Sources */,
-				22067564202486C800471675 /* ViewController.swift in Sources */,
 				223D28CD202548060050EBB0 /* Utils.swift in Sources */,
 				22534D732024D4AA001F6C14 /* DrawingARKitVC.swift in Sources */,
 				22534D682024B3A1001F6C14 /* FirstExample.swift in Sources */,
+				221CF6DE2028350200BB238E /* PortalVC.swift in Sources */,
 				22534D712024D3F3001F6C14 /* Int+extensions.swift in Sources */,
 				223D28C82024F4D90050EBB0 /* SolarSystemVC.swift in Sources */,
 				22067560202486C800471675 /* AppDelegate.swift in Sources */,

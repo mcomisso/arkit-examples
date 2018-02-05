@@ -19,7 +19,7 @@ class DrawingViewController: BaseARKitVC {
         super.viewDidLoad()
 
         self.sceneView.delegate = self
-
+        self.configuration.isLightEstimationEnabled = false
         self.sceneView.scene.rootNode.addChildNode(self.pointerNode)
         pointerNode.geometry?.firstMaterial?.diffuse.contents = UIColor.blue
     }

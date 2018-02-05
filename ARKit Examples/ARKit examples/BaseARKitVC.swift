@@ -10,6 +10,8 @@ import Foundation
 import UIKit
 import ARKit
 
+
+/// Base class with AR Scene, fullscreen
 class BaseARKitVC: UIViewController {
 
     lazy var sceneView: ARSCNView = { [weak self] in
@@ -35,8 +37,8 @@ class BaseARKitVC: UIViewController {
         self.view.addSubview(toggle)
 
         NSLayoutConstraint.activate([
-            sceneView.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor),
-            sceneView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor)])
+            toggle.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor),
+            toggle.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor)])
 
         return toggle
     }()
